@@ -1,0 +1,4 @@
+The pop() of my Queue is implemented by list<string>. For the linked
+list, the pop/delete the element just require change the pointer of the
+node before the deleted node. It does not need to change other elements
+in the container. So the complexity is O(1).
