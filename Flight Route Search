@@ -1,0 +1,8 @@
+# queue implementation
+Task 1: Implement Queue as a generic adaptor class template
+
+Task 2: Implement the shortest route search algorithm for flight reservation using the breadth first search.
+
+In this part of the project, you will implement a (simplified) system to help airline customers buy tickets. The system loads the direct flight information from a file. It then asks users for the source/destination city of the travel, and compute the shortest route from the source city to the destination city. In this project, the shortest route is defined in terms of number of connections in a route. A shortest route is a route with the least number of connections. If there are multiple of such shortest routes, you can output any of them. 
+The direct flight information is given in file proj3.input. The first line of this file is the number of cities (num) that the airline services. After this line, the list of the names of the cities is given. Each name occupies one line. Finally, the direct flight information is given in a num x num matrix. In the matrix, a positive number is the price of the direct flight between the two cities. The number -1 indicates that there is no direct flight between the two cities. Following is an example of proj3.input. Your first task is to load the information in proj3.input and store it in an internal data structure to be used later.
+ 
